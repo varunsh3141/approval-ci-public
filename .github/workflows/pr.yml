@@ -1,0 +1,8 @@
+name: PR Approval Hook GHA 
+on:
+  workflow_dispatch:
+jobs:
+  gha-custom-hook:
+    runs-on: arc1
+    steps:
+     - run: "ls"
