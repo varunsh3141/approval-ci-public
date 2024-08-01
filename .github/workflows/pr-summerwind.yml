@@ -1,0 +1,9 @@
+name: PR Approval Hook SummerWind 
+on:
+  pull_request:
+  
+jobs:
+  summerwind-custom-hook:
+    runs-on: self-hosted
+    steps:
+     - run: "ls"
