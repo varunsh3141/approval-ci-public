@@ -1,6 +1,7 @@
 name: PR Approval Hook GHA 
 on:
-  workflow_dispatch:
+  pull_request:
+  
 jobs:
   gha-custom-hook:
     runs-on: arc1
